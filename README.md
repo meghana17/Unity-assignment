@@ -28,7 +28,7 @@ All the generated OBJs for the input videos can be found [here](https://drive.go
 
 ### Limitations
 
-1. The model is trained with limited variation in sata and only works well for fashion poses (front facing poses)
+1. The model is trained with limited variation in data and only works well for fashion poses (front facing poses)
 
 2. Reconstruction quality for multi-person images is poor
 
