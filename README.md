@@ -36,6 +36,8 @@ All the generated OBJs for the input videos can be found [here](https://drive.go
 
 3. Does not work with cluttered background
 
+4. Incomplete reconstructions due to self-occlusions - since PIFuHD uses normal map predictions, there are certain incomplete reconstructions where the normal prediction fails.
+
 These limitations can be mitigated by (a) Training the model with use-case specific images or videos from YouTube to increase the variation in training data
 (b) Using a multi-person keypoint detector to obtain pose and keypoints for multiperson images to improve multi-person reconstruction (c) Using segmentation to sperate background and foreground entities
 
